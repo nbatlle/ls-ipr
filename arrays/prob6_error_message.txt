@@ -1,0 +1,9 @@
+#prob6_error_message.txt
+
+names = ['bob', 'joe', 'susan', 'margaret']
+names['margaret'] = 'jody'
+
+#The error in the second line is attempting to access an array value with a string instead of an index.
+#The interpreter is expecting an integer to know which index to access, and it doesn't know how to turn 'margaret' into an integer.
+#'margaret' is the 4th item and has na index of 3, so names['margaret'] should read names[3]
+
